@@ -1,0 +1,45 @@
+#root {
+  width: 100%;
+  display: flex;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.header-content h2 {
+  margin: 1rem 2rem;
+}
+
+.header-content form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.header-content form label {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #ededed;
+  margin-right: 0.5rem;
+}
+
+.header-content form input {
+  display: inline;
+  padding: 0.2rem 0.2rem;
+  height: fit-content;
+}

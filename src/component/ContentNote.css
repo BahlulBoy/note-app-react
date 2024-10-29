@@ -1,0 +1,47 @@
+.list-notes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  padding: 0 2rem;
+  gap: 1.4rem;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.card-note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 18rem;
+  min-height: 10rem;
+  height: max-content;
+  border: 1px #404040 solid;
+  border-radius: 0.8rem;
+  padding: 1rem 1rem;
+}
+
+.card-note h3 {
+  font-size: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+
+.card-note h5 {
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.card-note p {
+  font-size: 0.6rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.card-note button {
+  padding: 0.2rem 0.2rem;
+}
+
+.card-note-btn {
+  display: flex;
+  gap: 0.6rem;
+}

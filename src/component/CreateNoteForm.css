@@ -1,0 +1,32 @@
+#create-note {
+  display: flex;
+  padding: 1rem 1.5rem;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+#create-note h5 {
+  margin-bottom: 0.5rem;
+}
+
+#create-note #title {
+  margin-bottom: 0.2rem;
+  padding: 0.3rem;
+}
+
+#create-note p {
+  font-size: 0.7rem;
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+  color: #c5c5c5;
+}
+
+#create-note #body {
+  padding: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+#create-note button {
+  font-size: 0.8rem;
+  padding: 0.3rem;
+}
